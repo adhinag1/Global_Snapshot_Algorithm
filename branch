@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $# -ne 0 ];
+then
+	python bank_server.py $@
+else
+	echo "Input Argument is Missing"
+fi
